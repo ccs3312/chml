@@ -1,4 +1,4 @@
-# -*- coding: ANSI -*-
+# -*- coding: UTF-8 -*-
 import streamlit as st
 #import library ที่ต้องใช้ทั้งหมด
 #from fastai import (
