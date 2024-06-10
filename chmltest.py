@@ -3,14 +3,14 @@ import streamlit as st
 
 import glob
 from random import shuffle
-import pathlib
-import urllib.request
-from pathlib import Path
+#import pathlib
+#import urllib.request
+#from pathlib import Path
 
 from fastai.learner import load_learner
 from fastai.vision.all import PILImage
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 learn_inf = load_learner("fastai_chml.pkl")
 st.sidebar.write('### Enter image to classify')
